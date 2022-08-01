@@ -12,9 +12,9 @@ function App() {
       <Router>
         <Routes>
           {/* Display products,fetch and show ProductComponent from ProductListing */}
-          <Route path="/" element={<ProductListing />} />
+          <Route path="/react-redux-store" element={<ProductListing />} />
           {/* Make the links for the products work */}
-          <Route path="/product/:productId" element={<ProductDetail />} />
+          <Route path="/react-redux-store/product/:productId" element={<ProductDetail />} />
           {/* SHow 404 Error if products not showing */}
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -34,7 +34,7 @@ const ProductDetail = () => {
       <div className="description">{description}</div>
       <br></br>
       <img src={image} alt={title} className="imageS" />
-      <Link to="/">
+      <Link to="/react-redux-store">
         <h3>Back</h3>
       </Link>
     </div>
